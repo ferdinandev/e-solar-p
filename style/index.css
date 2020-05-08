@@ -1,0 +1,113 @@
+/*
+    STYLES GUIDE
+    0. RESET
+    1. LAYOUT
+    2. GENERIC ITEM
+    3. PARTS OF THE WEB
+    4. LIST
+    5. FORM
+    6. ANIMATION
+    ------------------------
+    COLORS:
+    color1 => #73A142; Verde base
+    color2 => #4E6E2D; Verde oscuro
+    color3 => #AAED61; Verde chillon
+    color4 => #CCEDA8; Pistache
+    color5 => #98B07D; Verde gris
+    Color6 => #A14A32; Naranja marron
+    Color7 => #E8E523; Amarillo
+*/
+#header{
+    background: linear-gradient(90deg,#233D08,#608731 75%,#669523);
+    
+}
+#header img{
+    max-width: 96px;
+}
+#header .nav-link{
+    color: white;
+}
+
+#header .nav-link:hover{
+    color: #E8E523 !important;
+}
+
+#main .carousel-inner img{
+    max-height: 90vh;
+    object-fit: fill;
+    /*filter: grayscale(90%);*/
+    
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .container .row {
+    height: 100%;
+}
+
+#energiaLimpia img{
+ object-fit: cover;
+}
+
+#energiaLimpia{
+    background-color: #233D08;
+    color: whitesmoke;
+}
+
+
+.card-title{
+    color:#608731  ;
+    text-align: center;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+#contacto{
+    background-color: #233D08;
+    color: whitesmoke;
+}
+
+#contacto .list-group-item{
+    color: #233D08;
+}
+
+
+.btn-esolar{
+    background-color: #233D08;
+    color: whitesmoke;
+    border-color: #CCEDA8;
+    width: 100%;
+}
+.btn-esolar:hover{
+    background-color: #CCEDA8;
+    color: #233D08;
+    border-color: #233D08;
+}
+
+#footer{
+    background: linear-gradient(90deg,#233D08,#608731 75%,#669523);
+      color: white;  
+}
+
+#footer a{
+    color: white;;
+}
+
+#footer img{
+    width: 40px;
+}
